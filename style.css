@@ -1,0 +1,62 @@
+body {
+    width:100%;
+    height:400%;
+    margin: 0;
+    padding-top: 5px;
+    background-color: #6ba7d6;
+    font-family: 'Raleway' , sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+
+    
+}
+header span h1 {
+    color:red;
+    background-color: green;
+    text-align: center;
+     border: 1px solid #121212;
+     border-width: medium;
+     align-content: center
+}
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logo {
+    width: 200px
+}
+
+figure > figcaption {
+    text-align: center;
+}
+
+figure > img:first-of-type {
+    width:150px;
+}
+img .flag {
+    width: 350px
+}
+
+figure > img.equipe {
+     display: inline-block; 
+    width: 500px;
+    height: 300px;
+    border: 1px solid #6b6b73;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px; 
+}
+figcaption {
+    color:green;
+    font-weight: bold
+}
+footer {
+    text-align: center;
+    font-size: 30pt;
+    font-family: "tahoma";
+    color: red;
+    font-weight: bold
+}
